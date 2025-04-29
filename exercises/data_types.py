@@ -22,4 +22,8 @@ def get_data_types():
     # 3. 创建一个字符串变量，值为 "Python编程"
     # 4. 创建一个布尔值变量，值为 True
     # 5. 将这些变量作为元组返回
-    pass 
+    num = 42
+    pi = 3.14
+    string = "Python编程"
+    is_bool = True
+    return (num, pi, string, is_bool)
